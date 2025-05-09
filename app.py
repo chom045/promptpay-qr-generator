@@ -53,7 +53,7 @@ def generate_promptpay_qr(amount):
 
     # Calculate dimensions for the new image with space for text
     qr_width, qr_height = qr_img.size
-    text_height = 50
+    text_height = 100
     new_img = Image.new("RGB", (qr_width, qr_height + text_height), "white")
     new_img.paste(qr_img, (0, 0))
 
