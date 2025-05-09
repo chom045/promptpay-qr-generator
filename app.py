@@ -20,7 +20,7 @@ def generate_promptpay_qr(amount):
     """Generate a Thai PromptPay QR code with the specified amount and text overlay."""
     # Original QR code string (excluding the checksum part)
     base_string = (
-        "00020101021130490016A000000677010112011509940002448431402060431035303764"
+        "00020101021130490016A000000677010112011509940002448431402060431015303764"
         "54{:02d}{}"  # Placeholder for amount length and value
         "5802TH5919EGAT (BHUMIBOL DAM)62240720614020262304282111326304"
     )
